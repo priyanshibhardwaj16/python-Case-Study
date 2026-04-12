@@ -20,4 +20,7 @@ print(df)
 
 #df[df['attempts'] > 2]  
 
-df[(df['attempts'] < 2) & (df['score'] > 15)]
+df[(df['attempts'] < 2) & (df['score'] > 15)]  
+
+
+print (df.head()) 
