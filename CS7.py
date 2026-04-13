@@ -83,3 +83,8 @@ df = py.read_csv("My Uber Drives.csv")
  #24
  
 #df.groupby("Month").mean(numeric_only=True)
+
+
+
+#25  
+#df["Day"] = df["START_DATE"].dt.day
