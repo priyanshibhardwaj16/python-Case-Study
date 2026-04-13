@@ -79,3 +79,7 @@ df = py.read_csv("My Uber Drives.csv")
 #
 # df_2 = df_2[df_2["STOP"] != 'unknown location']  
  
+
+ #24
+ 
+#df.groupby("Month").mean(numeric_only=True)
