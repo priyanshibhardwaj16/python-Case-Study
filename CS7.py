@@ -75,6 +75,7 @@ df = py.read_csv("My Uber Drives.csv")
 
 
 #23  
-
-
+#df_2 = df[df["Start"] != 'unknown location'] 
+#
+# df_2 = df_2[df_2["STOP"] != 'unknown location']  
  
