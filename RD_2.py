@@ -2,7 +2,7 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 
-Total_bill=np.array([34.0, 108.0, 64.0, 88.0, 99.0, 51.0, 78.0,89.0])
+Total_bill=np.array([34.0, 108.0, 64.0, 88.0, 99.0, 51.0])
 Tip_amt=np.array([5.0, 17.0, 11.0, 8.0, 14.0, 5.0])
 
 mean_bill=np.mean(Total_bill)
