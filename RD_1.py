@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 
 
 meal=[1,2,3,4,5,6]
-tip=np.array([5.0, 17.0, 11.0, 8.0, 14.0, 5.0,9.0])
+tip=np.array([5.0, 17.0, 11.0, 8.0, 14.0, 5.0,])
 
 mean_tip=np.mean(tip)
 residual=tip-mean_tip
