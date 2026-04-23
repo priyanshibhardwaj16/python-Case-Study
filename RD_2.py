@@ -10,7 +10,7 @@ mean_tip=np.mean(Tip_amt)
 
 n=len(Total_bill)
 
-plt.scatter(Total_bill,Tip_amt, c='black', marker='D')
+plt.scatter(Total_bill,Tip_amt, c='blue', marker='D')
 plt.xlabel("Bill Amount ($)")
 plt.ylabel("Tip Amount ($)")
 plt.xlim(20,120)
